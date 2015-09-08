@@ -1,0 +1,66 @@
+h1{
+	color: #ffffff;
+	background-color: #101010;
+	font-weight: bold;
+	font-style: Arial;
+	text-align: center;
+	margin: 0px;
+}
+body{
+	background-color: black;
+	max-height: 100%;
+	max-width: 	100%;		
+}
+li{
+	color: #ffffff;
+	padding-left: 5px;
+}
+#about{
+	color: rgb(255,141,17);
+	position:  relative;
+	font-size: 14px;
+	font-weight: 100px;
+	width: 700px;
+	max-height: 100%;
+	max-width: 	100%;
+}	
+.gourmets{
+	position: relative;
+	color:;
+	left:0x;
+	color:#ffffff;
+}
+#slogan{
+	font-style: italic; 
+	text-align: center;
+	background-color: black;
+	color: 	#ffffff;
+	z-index: 0;
+	font-size: 	24px;
+}
+#main_image{
+	position: absolute;
+	background-position: cover;
+	height: 100%;
+	width: 100%;
+	top:5px;
+}
+#middle_frame{
+	height: 600px;
+	margin: 0px;
+	max-height: 100%;
+	max-width: 	100%;
+	position: 	relative;
+}
+#header_wrapper{
+	position: relative;
+	background-color: #000099;
+	height: 5px;
+}
+#footer_wrapper{
+	color: #ffffff;
+	border-top:solid;
+	border-color: #000099;
+	background-color: #000000;
+	height: 50px;
+}
