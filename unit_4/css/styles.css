@@ -82,7 +82,7 @@ body, #wrapper, #main_image, #middle_frame, #about{
 }
 
 #middle_frame{
-	height: 800px;
+	height: 600px;
 	margin: 0px;
 	position: 	relative;
 }
