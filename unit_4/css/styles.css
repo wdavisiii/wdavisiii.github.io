@@ -1,0 +1,97 @@
+/*@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans); */
+h1{
+	color: #ffffff;
+	background-color: #080808;
+	font-weight: bold;
+	font-family: 'Cinzel Decorative', serif;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	word-spacing: 10px;
+}
+body{
+	font-family: 'Open Sans', serif;
+	text-align: center;
+	background-color: black;
+}
+a:hover{
+	color: yellow;
+}
+li{
+	color: #ffffff;
+	padding-left: 0px;
+}
+li:hover{
+	color: yellow;
+}
+
+#about{
+	color: rgb(255,141,17);
+	position:  relative;
+	line-height: 1.5em;
+	margin: 2em;
+	font-size: 20px;
+	font-weight: 100px;
+}	
+.offers{
+	background-color: #090909;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: 800px;
+
+}
+.offers, #footer_wrapper{
+	border-top:solid;
+	border-color: #000099;
+}
+
+.gourmets, li{
+	position: relative;
+	margin-top: 5px;
+	font-size: 18px;
+	list-style-type: none;
+	left:0x;
+	color:#ffffff;
+	background-color: black;
+}
+
+#slogan{
+	font-style: italic; 
+	text-align: center;
+	background-color: black;
+	color: 	#ffffff;
+	font-size: 	24px;
+}
+#main_image{
+	position: relative;
+	width: 100%;
+	height:100%;
+	left: 0px;
+	top:5px;
+}
+body, #wrapper, #main_image, #middle_frame, #about{
+	max-height: 100%;
+	max-width: 100%;
+}
+#middle_frame{
+	border-top:solid;
+	border-color: rgb(255,141,17);
+}
+
+#middle_frame{
+	height: 800px;
+	margin: 0px;
+	position: 	relative;
+}
+
+#footer_wrapper{
+	position: relative;
+	text-align: left;
+	padding-top:10px;
+	background-color: #000000;
+	font-size: 18px;
+	height: 50px;
+}
