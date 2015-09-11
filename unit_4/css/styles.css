@@ -6,6 +6,13 @@ body{
 	text-align: center;
 	background-color: black;
 }
+div#splash {
+	background:url(../images/chai1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:;
+	height:50vh;
+}
 h1{
 	font-weight: bold;
 	font-family: 'Cinzel Decorative', serif;
