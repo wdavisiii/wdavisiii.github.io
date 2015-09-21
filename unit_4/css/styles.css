@@ -1,21 +1,20 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body{
 	color:#fff;
-	font-family: 'Cinzel', serif;
+	font-family: 'Slabo 27px', serif;
 	font-size:18px;
 	text-align: center;
 	background-color: black;
 }
 div#splash {
-	background:url(../images/chai1.png);
+	background:url(../images/chai2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position:;
-	height:50vh;
+	background-position: 20% 60%;
+	height:60vh;
 }
 h1{
 	font-weight: bold;
-	font-family: 'Cinzel Decorative', serif;
 	margin-top: .25em;
 	margin-bottom: .25em;
 	word-spacing: .25em;
@@ -23,57 +22,50 @@ h1{
 a {
 	color:#fff;
 }
-a:hover{
-	color: yellow;
-}
-#about{
-	color: rgb(255,141,17);
-	line-height: 1.5em;
-	margin: 2em;
-	font-weight: 100;
-}	
-.offers{
-	background-color: #090909;
-	color: white;
-	padding-top:.5em;
-	padding-bottom: .5em;
-	font-weight: 800;
-
-}
-.offers, footer{
-	border-top:solid;
-	border-color: #000099;
-}
-
-.gourmets, li{
+li{
 	margin-top: 5px;
 	font-size: 18px;
 	list-style-type: none;
 	color:#ffffff;
 	background-color: black;
 }
-
-#slogan{
-	font-style: italic; 
-	text-align: center;
-	background-color: black;
-	color: 	#ffffff;
-	font-size: 1.5em;
-}
-#middle_frame{
-	border-top:solid;
-	border-color: rgb(255,141,17);
-}
-
-#middle_frame{
-	height: 600px;
-	margin: 0px;
-	position: 	relative;
-}
-
 footer {
 	text-align: left;
 	padding:2em;
+	border-top:solid;
+	border-color: #000099;
 	background-color: #000000;
 	font-size: 18px;
 }
+.offers{
+	color: white;
+	padding-top:.5em;
+	padding-bottom: .5em;
+	font-weight: 800;
+}
+.slogan{
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight:bold;
+	background-color: #101010;
+	padding: 0;
+	opacity: .8;
+	margin-top: -25px;
+	margin-bottom: 30px;
+	word-spacing: .5em;
+}
+#about{
+	color: rgb(255,141,17);
+	line-height: 1.5em;
+	font-weight: 100;
+	margin-bottom: 40px;
+}
+#offers_label{
+	color:#ffffff;
+	border-bottom:solid 1px;
+	border-bottom-color: #404040;
+	word-spacing: .5em;
+}	
+
