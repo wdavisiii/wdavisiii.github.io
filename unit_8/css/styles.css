@@ -94,6 +94,7 @@ section{
 .tea-section1{
 	background:url(../images/ceram_tea.png);
 	background-position: 25% 60%;
+	background-size: cover;
 }
 .tea-section2{
 	background:url(../images/chinese_tea.png);
@@ -211,12 +212,15 @@ footer a{
 		height:50vh;
 	}
 	#te-2 p, #te-3 p{
-	  padding: 5% 10% 5% 10%;
+	  padding: 0%;
+	  width:100%;
+	  height: initial;
 	}
+
 	#chinese-chai, #turk-chai{
-		padding: 30% 0 20% 10%;
+		padding: 30% 10% 20% 10%;
 		background-position: 0% 25%;
-		color:black;
+		
 	}
 }
 @media only screen and (max-width: 500px){
@@ -238,12 +242,13 @@ footer a{
 	
 	}
 	#te-2 p, #te-3 p{
-	  padding: 5% 10% 5% 10%;
+	  padding: 0%;
+	  width:100%;
+	  height: initial;
 
 	}
-
 	#chinese-chai, #turk-chai{
-		padding: 30% 0 20% 10%;
+		padding: 30% 10% 20% 10%;
 		background-position: 0% 25%;
 		color:black;
 	}
@@ -252,5 +257,7 @@ footer a{
 	}
 	.tea-story{
 		height:50vh;
+		float:none;
+
 	}
 }
