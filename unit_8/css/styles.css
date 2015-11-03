@@ -208,13 +208,14 @@ footer a{
 		margin: .2em;
 	}
 	.tea-story{
-		height:40vh;
+		height:50vh;
 	}
 	#te-2 p, #te-3 p{
 	  padding: 5% 10% 5% 10%;
 	}
 	#chinese-chai, #turk-chai{
 		padding: 30% 0 20% 10%;
+		background-position: 0% 25%;
 		color:black;
 	}
 }
@@ -232,14 +233,24 @@ footer a{
 	article{
 		padding:0;
 	}
+	.tea-section1 {
+      background-position: 90% 35%;
+	
+	}
 	#te-2 p, #te-3 p{
 	  padding: 5% 10% 5% 10%;
+
 	}
+
 	#chinese-chai, #turk-chai{
 		padding: 30% 0 20% 10%;
+		background-position: 0% 25%;
 		color:black;
 	}
+	#turk-chai{
+		color: white;
+	}
 	.tea-story{
-		height:35vh;
+		height:50vh;
 	}
 }
