@@ -1,4 +1,5 @@
 
+*{box-sizing: border-box;}
 body{
 	font-family: 'Playfair Display', serif;
 	text-decoration: none;
@@ -26,7 +27,7 @@ nav{
 nav a{ 
 	color: rgb(106, 106, 110);
 	font-size: 1.1em;	
-	border-right: 1px solid;
+	border-right: 1px solid #D4D5D6;
 	padding: .25% 0;
 	float: right;
 	width: 150px;		
@@ -36,7 +37,7 @@ nav a:first-child{
 }
 nav a:hover{
 	color: #0909C9;
-	border-right: 1px solid none;
+	border-right: 1px solid #D4D5D6;
 }
 header{
 	background-color: #f3f3f3;
@@ -100,7 +101,7 @@ section.about{
 .logo{
 	background:url(../images/logo1-small.png);
 	background-repeat: no-repeat;
-	background-color: #D4D5D6;
+	background-color: rgba(181, 211, 249, 0.35);
 	background-position: 2% 50%;
 	height: 4.5em;
     width: 100%;
@@ -149,6 +150,11 @@ section.about{
 .offers{
 	width:100%;
 }
+.offers li{
+	float: left;
+    width: 50%;
+    padding: 5%;
+}
 .clearfix:after{
 	visibility: hidden;
 	display:block;
@@ -173,19 +179,31 @@ section.about{
 	text-decoration: none;
 }
 #current{
-	background-color: rgba(18, 43, 234, 0.5);
-	color:white;
+	color: #0909C9;
+	border-right: 1px solid #D4D5D6;
 }
 #offers-label{
 	padding: 5%;
 }
 #coffee-link img, #tea-link img{	
-	width: 20%;
+	width: 35%;
 	border: medium none;
-	padding: 10%;
 }
 #chinese-chai{
 	color: #000000;
+}
+#tea-leaves{
+	overflow: hidden;
+	padding:5%;
+}
+#tea-leaves li{
+	width:33%;
+	float: left;
+}
+
+#tea-leaves img{
+	height: 150px;
+	padding:5%;
 }
 footer {
 	background-color: #404040;
@@ -204,7 +222,14 @@ footer a{
 @media only screen and (max-width: 700px) and (min-width: 500px){
 	nav a:first-child{
 		border-right: none;
-	}		
+	}	
+	h1{
+		padding: 6%;
+	}
+	.logo{
+		background-position-x: 50%;
+   		padding: 15%;
+	}	
 	.mobile{
 	    display: block;
 	    background-color: rgba(140, 140, 146, 0.7);
@@ -240,6 +265,13 @@ footer a{
 	article{
 		padding:0;
 	}
+	h1{
+		padding: 6%;
+	}
+	.logo{
+		background-position-x: 50%;
+   		padding: 15%;
+	}	
 	.desktop{
     	display: none;
 	}
@@ -263,6 +295,18 @@ footer a{
 	}
 	.tea-section2{
 		background-position: 12% 6% !important;
+	}
+	#tea-leaves{
+		padding-bottom:20%;
+	}
+	#tea-leaves li{
+		float:none;
+		margin:auto;
+	}
+	#tea-leaves p{
+		display:block;
+		padding: 5%;
+
 	}
 	#chinese-chai, #turk-chai{
 		padding: 30% 10% 20% 10%;
