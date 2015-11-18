@@ -239,7 +239,7 @@ footer a{
 	}
 	.mobile a{
 		width: 33%;
-    	border-right: 1px solid #68686B;
+    	border-right: 1px solid #D4D5D6;
 	}
 	.beverage{
 		height:60vh;
@@ -281,7 +281,7 @@ footer a{
 	}
 	.mobile a{
 		width: 33.3%;
-    	border-right: none;
+    	border-right: 1px solid #D4D5D6;
 	}
 	.beverage{
 		height:50vh;
